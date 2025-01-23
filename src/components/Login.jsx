@@ -21,7 +21,7 @@ export default function Login() {
       password:password
     }
     try {
-      const response = await axios.post(`${baseUrl}/api/v1/auth/login`,data,{
+      const response = await axios.post(`${baseUrl}api/v1/auth/login`,data,{
         headers:{
           'Content-Type':'application/json'
         }
