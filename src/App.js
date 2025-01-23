@@ -33,7 +33,7 @@ import UpdateProfileD from './components/Doctor/UpdateProfileD';
 import UpdateAdmin from './components/UpdateAdmin';
 
 function App() {
-  localStorage.setItem('baseUrl','https://hospitaladministration.onrender.com')
+  localStorage.setItem('baseUrl','https://hospitaladministration.onrender.com/')
   
 
   return (
